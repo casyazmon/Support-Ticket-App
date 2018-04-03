@@ -10,15 +10,19 @@ git clone https://github.com/casyazmon/Support-Ticket-App.git
 
 Run the command below to install Laravel dependencies
 
-composer install
+$ composer install
+
+
 Setting Up
+
+rename the .env.example file to .env
 
 Setup your database and cd into the project directory then run:
 
-php artisan migrate
+$ php artisan migrate
 
 Once the database is settup and migrations are up, run
 
-php artisan serve
+ $ php artisan serve
 
 and visit http://localhost:8000/ to see the application in action.
